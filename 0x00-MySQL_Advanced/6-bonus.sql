@@ -1,5 +1,5 @@
 -- This SQL script creates a stored procedure AddBonus that adds a new correction for a student.
-DELIMITER $$;
+DELIMITER //;
 CREATE PROCEDURE AddBonus(
     IN user_id INTEGER,
     IN project_name VARCHAR(255),
@@ -23,4 +23,4 @@ VALUES (
         score
     );
 END;
-$$ DELIMITER;
+// DELIMITER;
