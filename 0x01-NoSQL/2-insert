@@ -1,0 +1,2 @@
+// This scriot inserts a document in db
+db.school.insert({name: "Holberton school"})
